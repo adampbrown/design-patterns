@@ -17,6 +17,11 @@
         {
             // Behavioural.
             Strategy();
+
+            // Creational.
+            Singleton();
+
+            Console.ReadKey();
         }
 
         /// <summary>
@@ -42,8 +47,6 @@
             Console.WriteLine(mallard.Display());
             Console.WriteLine(mallard.Quack());
             Console.WriteLine(mallard.Fly());
-
-            Console.ReadKey();
         }
 
         /// <summary>
@@ -54,7 +57,7 @@
             var a = SimpleSingleton.GetInstance;
             var b = SimpleSingleton.GetInstance;
 
-            if (Object.ReferenceEquals(a, b))
+            if (ReferenceEquals(a, b))
             {
                 Console.WriteLine("Got instance of the simple singleton.");
             }
@@ -62,7 +65,7 @@
             var c = LazySingleton.GetInstance;
             var d = LazySingleton.GetInstance;
 
-            if (Object.ReferenceEquals(c, d))
+            if (object.ReferenceEquals(c, d))
             {
                 Console.WriteLine("Got instance of the lazy singleton.");
             }
