@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Strategy.Fly
+﻿namespace DesignPatterns.Behavioural.Strategy.Fly
 {
     public class Flightless : IFlyBehaviour
     {

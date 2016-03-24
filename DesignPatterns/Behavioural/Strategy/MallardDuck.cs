@@ -1,7 +1,7 @@
-﻿namespace DesignPatterns.Strategy
+﻿namespace DesignPatterns.Behavioural.Strategy
 {
-    using DesignPatterns.Strategy.Fly;
-    using DesignPatterns.Strategy.Quack;
+    using DesignPatterns.Behavioural.Strategy.Fly;
+    using DesignPatterns.Behavioural.Strategy.Quack;
 
     public class MallardDuck : Duck
     {

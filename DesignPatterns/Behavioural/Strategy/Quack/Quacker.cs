@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Strategy.Quack
+﻿namespace DesignPatterns.Behavioural.Strategy.Quack
 {
     class Quacker : IQuackBehavior
     {
